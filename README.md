@@ -101,3 +101,4 @@ C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -executionpolicy bypas
   
 
 [Detection rule](https://imgur.com/a/KFKhmtr)
+![description](https://github.com/cosminmocan/AddDel-UserAdmin/blob/main/Evm3b3x.png)
