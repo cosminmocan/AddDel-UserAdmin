@@ -56,7 +56,7 @@ Custom made scripts that will do the following:
 
 **Solution in detail:**
 
-[Get-UserSID.ps1](https://paste.ubuntu.com/p/sHmRr4DnHH/)  - This is a script that is applied on all devices, it creates a hidden folder in which we will store the user SID for each user that logs on the device , since it's applied on all devices that means that each device will have the sid files of the users that are using them
+[Get-UserSID.ps1](https://github.com/cosminmocan/AddDel-UserAdmin/blob/main/Get-UserSID.ps1)  - This is a script that is applied on all devices, it creates a hidden folder in which we will store the user SID for each user that logs on the device , since it's applied on all devices that means that each device will have the sid files of the users that are using them
 
 Example: user1's laptop will have a file called  **USER1firstname.USER1secondname.sid**  containing the SID of the user
 
@@ -64,7 +64,7 @@ Example: user1's laptop will have a file called  **USER1firstname.USER1secondnam
 
   
 
-[AddDell-UserAdmin.ps1](https://paste.ubuntu.com/p/TBB5NJVkz3/)  - This script will be converted in a app using  [intunewinapputil](https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool)  , it will also be called using add and del commands(add for installing and del for uninstalling) so that we always know which device has admin provided by this method , and also so that we know where it was successfully removed.
+[AddDell-UserAdmin.ps1](https://github.com/cosminmocan/AddDel-UserAdmin/blob/main/AddDell-UserAdmin.ps1)  - This script will be converted in a app using  [intunewinapputil](https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool)  , it will also be called using add and del commands(add for installing and del for uninstalling) so that we always know which device has admin provided by this method , and also so that we know where it was successfully removed.
 
 Further explanations about the script can be found in its comments, however , the decision for it to be a app is interesting enough to discuss as well.
 
